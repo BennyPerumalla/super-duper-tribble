@@ -14,5 +14,16 @@ This project is a **simple audio filter plugin for VLC Media Player** that allow
 
 ---
 
-## 📁 Project Structure
+## 🧩 Tech Stack
+Language: C
+Target: VLC plugin API
+Audio Format: float32 (VLC_CODEC_FL32)
+Tools: make, pkg-config, GCC
 
+## 📦 Requirements
+
+Before building, make sure the following are installed:
+
+```bash
+sudo apt update
+sudo apt install libvlc-dev vlc-plugin-base build-essential pkg-config
