@@ -15,10 +15,11 @@ This project is a **simple audio filter plugin for VLC Media Player** that allow
 ---
 
 ## 🧩 Tech Stack
-Language: C
-Target: VLC plugin API
-Audio Format: float32 (VLC_CODEC_FL32)
-Tools: make, pkg-config, GCC
+
+- Language: C
+- Target: VLC plugin API
+- Audio Format: float32 (VLC_CODEC_FL32)
+- Tools: make, pkg-config, GCC
 
 ## 📦 Requirements
 
